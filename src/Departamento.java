@@ -3,7 +3,7 @@
  *
  * @author Evelyn Martinez 
  */
-public class Departamentos {
+public class Departamento {
      private int codigo;
     private String nombre;
     private int codigoPadre;
@@ -11,10 +11,11 @@ public class Departamentos {
     private double presupuesto;
     private boolean tieneInconsistencias;
 
-    public Departamentos() {
+    public Departamento() {
     }
+    
     //Constructor en beneficio del archivo
-    public Departamentos(int codigo, String nombre, int codigoPadre, int cantidadEmpleados, double presupuesto) {
+    public Departamento(int codigo, String nombre, int codigoPadre, int cantidadEmpleados, int presupuesto) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.codigoPadre = codigoPadre;
