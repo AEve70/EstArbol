@@ -152,5 +152,5 @@ public class ArbolOrganizacional {
         }
     }
 
-
+    //Metodos adicionales o validaciones
 }
